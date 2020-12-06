@@ -58,7 +58,8 @@ def main():
         st.image('resources/imgs/Image_header.png',use_column_width=True)
         # Recommender System algorithm selection
         sys = st.radio("Select an algorithm",
-                       ('Content Based Filtering',
+                       ('Simple Recommender',
+			'Content Based Filtering',
                         'Collaborative Based Filtering'))
 
         # User-based preferences
